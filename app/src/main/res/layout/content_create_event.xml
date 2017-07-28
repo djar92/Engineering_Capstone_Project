@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="150dp"
+    android:paddingLeft="80dp"
+    android:paddingRight="80dp"
+    android:paddingTop="80dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.piqqie.httpwww.myapplication.CreateEventActivity"
+    tools:showIn="@layout/activity_create_event"
+    android:gravity="top|center_vertical">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_budget_text_field"
+        android:layout_weight="1"
+        android:background="@drawable/enter_budget_text_background"
+        android:autoText="false"
+        android:text="Budget"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="top" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/edit_location_text_field"
+        android:layout_weight="1"
+        android:background="@drawable/enter_location_text_background"
+        android:autoText="false"
+        android:text="Location"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="top" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/edit_time_text_field"
+        android:layout_weight="1"
+        android:background="@drawable/enter_time_text_background"
+        android:autoText="false"
+        android:text="Time"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="top" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_tags_text_field"
+        android:layout_weight="1"
+        android:background="@drawable/enter_tags_text_background"
+        android:autoText="false"
+        android:text="Personalized Tags"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="top" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Invite"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.33"
+        android:textColor="#ffffff"
+        android:background="@drawable/invite_button_background"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

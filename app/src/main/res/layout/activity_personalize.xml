@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.piqqie.httpwww.myapplication.Personalize"
+    android:background="#86cb92">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/table"
+        android:gravity="top"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="115dp"
+                android:text="Music"
+                android:id="@+id/music"
+                android:layout_column="4"
+                android:backgroundTint="#FF93DDA0"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="115dp"
+                android:id="@+id/business"
+                android:layout_column="6"
+                android:backgroundTint="#FF93DDA0"
+                android:text="Business"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="115dp"
+                android:id="@+id/food"
+                android:layout_column="8"
+                android:backgroundTint="#FF93DDA0"
+                android:text="Food and Drink"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="115dp"
+                android:id="@+id/community"
+                android:layout_column="4"
+                android:backgroundTint="#FF93DDA0"
+                android:text="Community"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="115dp"
+                android:text="Arts"
+                android:id="@+id/arts"
+                android:layout_column="6"
+                android:backgroundTint="#FF93DDA0"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="115dp"
+                android:text="Film and Media"
+                android:id="@+id/film"
+                android:layout_column="8"
+                android:backgroundTint="#FF93DDA0"
+                android:textStyle="bold"
+                android:textColor="#ffffff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="115dp"
+                android:id="@+id/fitness"
+                android:layout_column="4"
+                android:backgroundTint="#FF93DDA0"
+                android:text="Sports and Fitness"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="115dp"
+                android:id="@+id/health"
+                android:layout_column="6"
+                android:backgroundTint="#FF93DDA0"
+                android:text="Health"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="115dp"
+                android:id="@+id/tech"
+                android:layout_column="8"
+                android:backgroundTint="#FF93DDA0"
+                android:clickable="false"
+                android:text="Science and Tech"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="115dp"
+                android:text="Travel and Outdoor"
+                android:id="@+id/travel"
+                android:layout_column="4"
+                android:backgroundTint="#FF93DDA0"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="115dp"
+                android:text="Charity and Causes"
+                android:id="@+id/charity"
+                android:layout_column="6"
+                android:backgroundTint="#FF93DDA0"
+                android:textStyle="bold"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="115dp"
+                android:text="Spirituality"
+                android:id="@+id/spirituality"
+                android:layout_column="8"
+                android:backgroundTint="#FF93DDA0"
+                android:backgroundTintMode="src_atop"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_alignBottom="@id/table"/>
+
+</RelativeLayout>

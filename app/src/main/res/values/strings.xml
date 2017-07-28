@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">PiQQie</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="action_create_account">Create An Account</string>
+    <string name="action_forgot_password">Forgot Password?</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions.</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_create_event">Create An Event</string>
+    <string name="title_activity_activity_navigation">Navigation Activity</string>
+    <string name="title_activity_navigation">Navigation </string>
+    <string name="title_activity_voting_application">Voting </string>
+    <string name="title_activity_voting">Voting Activity</string>
+    <string name="title_activity_you__and__group_">You And Group Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_home_you">Home</string>
+    <string name="event1" />
+    <string name="event2" />
+    <string name="event3" />
+    <string name="event4" />
+    <string name="event5" />
+    <string name="event6">event6</string>
+    <string name="event7">event7</string>
+    <string name="event8">event8</string>
+    <string name="event9">event9</string>
+    <string name="event10">event10</string>
+    <string name="eventImage">eventImage</string>
+</resources>
